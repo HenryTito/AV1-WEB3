@@ -20,6 +20,11 @@ public class EnderecoService {
 
         Endereco end = cliente.getEndereco();
 
+         if(end == null){
+            end = new Endereco();
+            cliente.setEndereco(end);
+        }
+
         end.setEstado(dto.getEstado());
         end.setCidade(dto.getCidade());
         end.setBairro(dto.getBairro());
