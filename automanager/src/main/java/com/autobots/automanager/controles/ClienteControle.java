@@ -18,7 +18,6 @@ import com.autobots.automanager.dto.ClienteDTO;
 import com.autobots.automanager.entidades.Cliente;
 
 
-import com.autobots.automanager.repositorios.ClienteRepositorio;
 import com.autobots.automanager.service.ClienteService;
 
 @RestController

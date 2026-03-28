@@ -4,7 +4,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-import com.autobots.automanager.entidades.Endereco;
+
 
 import java.util.Date;
 import java.util.List;
